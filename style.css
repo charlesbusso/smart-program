@@ -63,3 +63,22 @@ section {
     
     
 }
+picture img{
+   border-color: #111;
+   background-size: cover;
+   width: 450px;
+   height: 500px;
+   display: flex;
+   margin-top: 20px;
+   align-items: center;
+   margin-left: 20px;
+   
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #111;
+    color: #fff;
+    margin-top: 20px;
+}
