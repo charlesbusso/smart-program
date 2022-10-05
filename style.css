@@ -60,6 +60,7 @@ section {
     color: #fff;
     
     
+    
 }
 picture {
    border-color: #111;
@@ -72,8 +73,8 @@ picture {
    
 }
 img{
-    width: 360px;
-    margin-left: 4px;
+    width: 340px;
+    border-radius: 10px;
 
 }
 picture p{
