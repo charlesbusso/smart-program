@@ -27,6 +27,7 @@ section {
     color: cyan;
     text-align: center;
     font-size: 1rem;
+    align-items: center;
 }
 #relogioSmart{
     user-select: none;
