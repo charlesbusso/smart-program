@@ -63,7 +63,7 @@ section {
 }
 picture {
    border-color: #111;
-   width: 370px;
+   width: 100%;
    display: flex;
    margin-top: 50px;
    align-items: center;
