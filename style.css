@@ -26,7 +26,7 @@ section {
     color: cyan;
     text-align: center;
     font-size: 1rem;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 #relogioSmart{
     user-select: none;
@@ -76,6 +76,7 @@ picture {
 }
 img{
     width: 380px;
+    margin-left: 5px;
 
 }
 picture p{
