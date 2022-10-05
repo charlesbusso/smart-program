@@ -89,7 +89,7 @@ function getUserPosition() {
 }
 function fetchApi(url) {
     let city = document.querySelector('.city')
-    let temperature = document.querySelector('#temp')
+    let temperatura = document.querySelector('#temp')
     let humidity = document.querySelector ('#umidad')
 
     fetch (url)
@@ -100,12 +100,12 @@ function fetchApi(url) {
         let tempInCelsius = ((5/9)  * (data.main.temp-32)).toFixed(1);
 
         city.textContent = data.name
-        temperature.innerHTML = tempInCelsius
+        temperatura.innerHTML = tempInCelsius
         humidity.innerHTML = data.main.humidity
     })
     .catch((err) => {
     city.innerHTML = 'Impossivel acessar o OpenWeatcher. Verifique a sua conexão.';
-    temperature.innerHTML = `-`;
+    temperatura.innerHTML = `-`;
 })
 }
 
