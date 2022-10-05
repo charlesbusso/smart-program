@@ -66,14 +66,14 @@ picture {
    width: 370px;
    display: flex;
    margin-top: 50px;
-   align-items: center;;
+   align-items: center;
    text-align: center;
    justify-content: center;
    
 }
 img{
     width: 360px;
-    margin-left: 5px;
+    margin-left: 4px;
 
 }
 picture p{
