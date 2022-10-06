@@ -15,22 +15,20 @@ function moveRelogio() {
     let minuto = momentoAtual.getMinutes();
     let segundo = momentoAtual.getSeconds();
 
-    let strHora = new String(hora);
-    let strMinuto = new String(minuto);
-    let strSegundo = new String(segundo);
-    let img = document.getElementById('imagem');
-    let diaDaSemana = dataHora.getDay();
-    let dia = dataHora.getDate();
-    let mes = dataHora.getMonth()+1;
-    let msg = document.getElementById('mensagem');
+    let strHora = new String(hora)
+    let strMinuto = new String(minuto)
+    let strSegundo = new String(segundo)
+    let diaDaSemana = dataHora.getDay()
+    let img = document.getElementById('imagem')
+    
 
-    if (strSegundo.length == 1)segundo = "0" + segundo;
-    if (strMinuto.length == 1) minuto = "0" + minuto;
-    if (strHora.length == 1) hora = "0" + hora;
+    if (strSegundo.length == 1)segundo = "0" + segundo
+    if (strMinuto.length == 1) minuto = "0" + minuto
+    if (strHora.length == 1) hora = "0" + hora
    
-    hSmart.textContent = hora;
-    mSmart.textContent = minuto;
-    sSmart.textContent = segundo;
+    hSmart.textContent = hora
+    mSmart.textContent = minuto
+    sSmart.textContent = segundo
 
    
 
@@ -58,6 +56,7 @@ function moveRelogio() {
             diaDaSemana = 'SAB'      
             break;      
     }
+    setTimeout("moveRelogio()",1000);
 
   
     if (diaDaSemana === 'SEG'){
@@ -82,27 +81,13 @@ function moveRelogio() {
     }
         else if(diaDaSemana === 'DOM') {
         img.src = 'imagens/deserto.jpg'
-        }
+    }
         
-        if((dia === 06)(mes === 10)) {
-            img.src = 'imagens/elisa.jpg'
-        }
+         
         
-
         
-    
+    }
 
-        
-
-
-
-   
-    setTimeout("moveRelogio()",1000)
-    
-
- 
-
-}
 function pegarData() {
     let diaDaSemana = dataHora.getDay();
     let dia = dataHora.getDate();
