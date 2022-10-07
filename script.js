@@ -20,6 +20,21 @@ function moveRelogio() {
     let strSegundo = new String(segundo)
     let diaDaSemana = dataHora.getDay()
     let img = document.getElementById('imagem')
+    let msg = document.getElementById('mensagem')
+    let dia = dataHora.getDate();
+    let mes = dataHora.getMonth()+1;
+    
+
+    let strDia = new String(dia);
+    let strMes = new String(mes);
+    
+    
+
+    if (strDia.length == 1) dia ='0' + dia;
+    if(strMes.length == 1) mes = '0' + mes;
+
+
+    
     
 
     if (strSegundo.length == 1)segundo = "0" + segundo
@@ -61,13 +76,16 @@ function moveRelogio() {
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
+        msg.textContent = ' "bom dia " '
         
     }
         else if (diaDaSemana === 'TER'){
         img.src = 'imagens/ponte.jpg'
+        msg.textContent = ' "bom dia " '
     }
         else if (diaDaSemana === 'QUA'){
         img.src = 'imagens/ceu-azul.jpg'
+        msg.textContent = ' " bom dia" '
     }
         else if (diaDaSemana === 'QUI'){
         img.src = 'imagens/aurora.jpg'
@@ -75,13 +93,27 @@ function moveRelogio() {
     }
         else if (diaDaSemana === 'SEX'){
         img.src = 'imagens/grama.jpg'
+        msg.textContent = ' "Faça o bem sempre, pois lembre-se que tudo que você faz, é entre você e DEUS, e nunca entre você e os outros!" '
     }
        else if (diaDaSemana === 'SAB'){
         img.src = 'imagens/coqueiro.jpg'
+        msg.textContent = ' "quando tudo parecer difícil, lembre-se que temos um DEUS, que do nada, faz TUDO " '
     }
         else if(diaDaSemana === 'DOM') {
         img.src = 'imagens/deserto.jpg'
+        msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
     }
+
+    
+
+     if ((dia === '27')([mes === '06'])); { 
+        img.src = 'imagens/dani.jpg'
+        msg.textContent = ' "Parabéns meu Amor, muitas felicidades" '
+    }
+
+    
+        
+        
         
          
         

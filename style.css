@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2? family= Arquivo & family= Nova+Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lobster&display=swap');
+
 
 section {
     margin-top: 10px;
@@ -50,7 +52,7 @@ section {
 }
 #semana{
     color: greenyellow;
-    margin-right: 25px;
+    margin-right: 15px;
     font-size: 1.7rem;
 }
 #temperatura{
@@ -70,10 +72,13 @@ picture{
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
 }
- #p{
-    color: white;
-    font-size: 2rem;
+ #mensagem{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 15px;
     
  }
 img{
