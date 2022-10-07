@@ -106,16 +106,6 @@ function moveRelogio() {
 
     
 
-     if ((dia === '27')([mes === '06'])); { 
-        img.src = 'imagens/dani.jpg'
-        msg.textContent = ' "Parabéns meu Amor, muitas felicidades" '
-    }
-
-    
-        
-        
-        
-         
         
         
     }
