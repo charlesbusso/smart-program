@@ -77,22 +77,22 @@ function moveRelogio() {
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
-        msg.textContent = ' " Procure ao SENHOR, da mesma forma que vc procurou o carregador  quando a bateria estava  com 1% " '
+        msg.textContent = ' "Procure ao SENHOR, da mesma forma que vc procurou o carregador  quando a bateria estava  com 1% " '
         
     }
         else if (diaDaSemana === 'TER'){
         img.src = 'imagens/ponte.jpg'
-        msg.textContent = ' " E quando perguntarem onde está o teu DEUS , responde aonde ele está: 
+        msg.textContent = ' "E quando perguntarem onde está o teu DEUS , responde aonde ele está, 
          NO CONTROLE DE TUDO ." '
 
     }
         else if (diaDaSemana === 'QUA'){
         img.src = 'imagens/ceu-azul.jpg'
-        msg.textContent = ' " Muitos dizem : Onde estás SENHOR ? E poucos  dizem : SENHOR , eis me aqui" '
+        msg.textContent = ' "Muitos dizem , Onde estás SENHOR ? E poucos  dizem , SENHOR , eis me aqui" '
     }
         else if (diaDaSemana === 'QUI'){
         img.src = 'imagens/aurora.jpg'
-        msg.textContent = ' " Nunca questione as decisões de DEUS,  porque tudo que ele fsz , é perfeito. " '
+        msg.textContent = ' "Nunca questione as decisões de DEUS,  porque tudo que ele fsz , é perfeito. " '
     }
         else if (diaDaSemana === 'SEX'){
         img.src = 'imagens/grama.jpg'
