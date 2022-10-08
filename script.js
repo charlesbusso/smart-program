@@ -105,12 +105,6 @@ function moveRelogio() {
         msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
     }
 
-
-
-        
-        
-    }
-
 function pegarData() {
     let diaDaSemana = dataHora.getDay();
     let dia = dataHora.getDate();
