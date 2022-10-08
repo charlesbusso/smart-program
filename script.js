@@ -90,7 +90,7 @@ function moveRelogio() {
     }
         else if (diaDaSemana === 'QUI'){
         img.src = 'imagens/aurora.jpg'
-        msg.document.style.p = "bom dia"
+        msg.document.style.p = ' "bom dia" '
     }
         else if (diaDaSemana === 'SEX'){
         img.src = 'imagens/grama.jpg'
