@@ -83,7 +83,7 @@ function moveRelogio() {
         else if (diaDaSemana === 'TER'){
         img.src = 'imagens/ponte.jpg'
         msg.textContent = ' "E quando perguntarem onde está o teu DEUS , responde aonde ele está, 
-         NO CONTROLE DE TUDO ." '
+         NO CONTROLE DE TUDO !" '
 
     }
         else if (diaDaSemana === 'QUA'){
@@ -92,7 +92,7 @@ function moveRelogio() {
     }
         else if (diaDaSemana === 'QUI'){
         img.src = 'imagens/aurora.jpg'
-        msg.textContent = ' "Nunca questione as decisões de DEUS,  porque tudo que ele fsz , é perfeito. " '
+        msg.textContent = ' "Nunca questione as decisões de DEUS,  porque tudo que ele faz , é perfeito! " '
     }
         else if (diaDaSemana === 'SEX'){
         img.src = 'imagens/grama.jpg'
@@ -100,7 +100,7 @@ function moveRelogio() {
     }
        else if (diaDaSemana === 'SAB'){
         img.src = 'imagens/coqueiro.jpg'
-        msg.textContent = ' "Quando tudo parecer difícil, lembre-se que temos um DEUS , que do nada , faz TUDO " '
+        msg.textContent = ' "Quando tudo parecer difícil, lembre-se que temos um DEUS , que do nada , faz TUDO! " '
     }
         else if(diaDaSemana === 'DOM') {
         img.src = 'imagens/deserto.jpg'
