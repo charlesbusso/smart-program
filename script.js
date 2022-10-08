@@ -105,11 +105,11 @@ function moveRelogio() {
         msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
     }
 
-        if (dia && mes == 07 && 10); {
+        if (dia == 08 && mes == 10) {
         Img.src = 'imagens/elisa.jpg'
       }
-        if (dia && mes == 08 & 10); {
-        img.src = 'imagens/fla.jpg'
+        if (dia == 07 && mes == 10) {
+        img.src = 'imagens/dani.jpg'
        }
 
         
