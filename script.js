@@ -23,7 +23,7 @@ function moveRelogio() {
     let msg = document.getElementById('mensagem')
     let dia = dataHora.getDate();
     let mes = dataHora.getMonth()+1;
-    letra dm = dia + '/' + mes;
+   
 
     let strDia = new String(dia);
     let strMes = new String(mes);
@@ -76,7 +76,8 @@ function moveRelogio() {
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
-        msg.textContent = ' "bom dia " '
+        msg.textContent = ' " procure ao SENHOR, da mesma 
+        forma que vc procurou o carregador  quando a bateria estava  com 1% " '
         
     }
         else if (diaDaSemana === 'TER'){
@@ -104,11 +105,11 @@ function moveRelogio() {
         msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
     }
 
-        if (dm == 07 + '/' + 10) {
-        Img.src = 'imagens/Elisa.jpg'
+        if (dia && mes == 07 && 10); {
+        Img.src = 'imagens/elisa.jpg'
       }
-        if (dm == 08 + '/' + 10) {
-        img.src = 'imagens/Fla.jpg'
+        if (dia && mes == 08 & 10); {
+        img.src = 'imagens/fla.jpg'
        }
 
         
