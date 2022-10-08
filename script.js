@@ -77,20 +77,22 @@ function moveRelogio() {
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
-        msg.textContent = ' " procure ao SENHOR, da mesma forma que vc procurou o carregador  quando a bateria estava  com 1% " '
+        msg.textContent = ' " Procure ao SENHOR, da mesma forma que vc procurou o carregador  quando a bateria estava  com 1% " '
         
     }
         else if (diaDaSemana === 'TER'){
         img.src = 'imagens/ponte.jpg'
-        msg.textContent = ' "bom dia " '
+        msg.textContent = ' " E quando perguntarem onde está o teu DEUS , responde aonde ele está: 
+         NO CONTROLE DE TUDO ." '
+
     }
         else if (diaDaSemana === 'QUA'){
         img.src = 'imagens/ceu-azul.jpg'
-        msg.textContent = ' " bom dia" '
+        msg.textContent = ' " Muitos dizem : Onde estás SENHOR ? E poucos  dizem : SENHOR , eis me aqui" '
     }
         else if (diaDaSemana === 'QUI'){
         img.src = 'imagens/aurora.jpg'
-        msg.textContent = ' "bom dia" '
+        msg.textContent = ' " Nunca questione as decisões de DEUS,  porque tudo que ele fsz , é perfeito. " '
     }
         else if (diaDaSemana === 'SEX'){
         img.src = 'imagens/grama.jpg'
@@ -98,7 +100,7 @@ function moveRelogio() {
     }
        else if (diaDaSemana === 'SAB'){
         img.src = 'imagens/coqueiro.jpg'
-        msg.textContent = ' "quando tudo parecer difícil, lembre-se que temos um DEUS, que do nada, faz TUDO " '
+        msg.textContent = ' "Quando tudo parecer difícil, lembre-se que temos um DEUS , que do nada , faz TUDO " '
     }
         else if(diaDaSemana === 'DOM') {
         img.src = 'imagens/deserto.jpg'
@@ -109,7 +111,7 @@ function moveRelogio() {
         img.src = 'imagens/faa.jpg'
        } else ('diaDaSemana')
 
-       if ((dia == 12)&&(mes == 03)){
+       if ((dia == 10)&&(mes == 10)){
         img.src = 'imagens/elisa.jpg'
        } else ('diaDaSemana')
 
