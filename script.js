@@ -23,7 +23,7 @@ function moveRelogio() {
     let msg = document.getElementById('mensagem')
     let dia = dataHora.getDate();
     let mes = dataHora.getMonth()+1;
-    
+    letra dm = dia + '/' + mes;
 
     let strDia = new String(dia);
     let strMes = new String(mes);
@@ -93,7 +93,7 @@ function moveRelogio() {
     }
         else if (diaDaSemana === 'SEX'){
         img.src = 'imagens/grama.jpg'
-        msg.textContent = ' "Faça o bem sempre, pois lembre-se que tudo que você faz, é entre você e DEUS, e nunca entre você e os outros!" '
+        msg.textContent = ' "Faça o bem sempre, pois lembre-se que tudo que você faz, é entre você e DEUS, e nunca é entre você e os outros!" '
     }
        else if (diaDaSemana === 'SAB'){
         img.src = 'imagens/coqueiro.jpg'
@@ -104,7 +104,12 @@ function moveRelogio() {
         msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
     }
 
-    
+        if (dm == 07 + '/' + 10) {
+        Img.src = 'imagens/Elisa.jpg'
+      }
+        if (dm == 08 + '/' + 10) {
+        img.src = 'imagens/Fla.jpg'
+       }
 
         
         
