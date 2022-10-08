@@ -15,12 +15,12 @@ function moveRelogio() {
     let minuto = momentoAtual.getMinutes();
     let segundo = momentoAtual.getSeconds();
 
-    let strHora = new String(hora)
-    let strMinuto = new String(minuto)
-    let strSegundo = new String(segundo)
-    let diaDaSemana = dataHora.getDay()
-    let img = document.getElementById('imagem')
-    let msg = document.getElementById('mensagem')
+    let strHora = new String(hora);
+    let strMinuto = new String(minuto);
+    let strSegundo = new String(segundo);
+    let diaDaSemana = dataHora.getDay();
+    let img = document.getElementById('imagem');
+    let msg = document.getElementById('mensagem');
     let dia = dataHora.getDate();
     let mes = dataHora.getMonth()+1;
     
@@ -71,6 +71,7 @@ function moveRelogio() {
             diaDaSemana = 'SAB'      
             break;      
     }
+
     setTimeout("moveRelogio()",1000);
 
   
@@ -101,13 +102,10 @@ function moveRelogio() {
     }
         else if(diaDaSemana === 'DOM') {
         img.src = 'imagens/deserto.jpg'
-        msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
+        msg.textContent = ' " Deus diz: tenha bom ânimo, pois estou no controle de tudo! " '
     }
 
     
-
-        
-        
     }
 
 function pegarData() {
