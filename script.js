@@ -104,6 +104,7 @@ function moveRelogio() {
         img.src = 'imagens/deserto.jpg'
         msg.textContent = ' " Deus diz: tenha bom ânimo, estou no controle de tudo! " '
     }
+}
 
 function pegarData() {
     let diaDaSemana = dataHora.getDay();
