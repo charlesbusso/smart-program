@@ -82,8 +82,7 @@ function moveRelogio() {
     }
         else if (diaDaSemana === 'TER'){
         img.src = 'imagens/ponte.jpg'
-        msg.textContent = ' "E quando perguntarem onde está o teu DEUS , responde aonde ele está, 
-         NO CONTROLE DE TUDO !" '
+        msg.textContent = ' "E quando perguntarem onde está o teu DEUS , responde aonde ele está, NO CONTROLE DE TUDO !" '
 
     }
         else if (diaDaSemana === 'QUA'){
