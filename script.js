@@ -102,17 +102,111 @@ function moveRelogio() {
         msg.textContent = ' "Quando tudo parecer difícil, lembre-se que temos um DEUS , que do nada , faz TUDO! " '
     }
         else if(diaDaSemana === 'DOM') {
-        img.src = 'imagens/deserto.jpg'
+        img.src = 'imagens/caminho.jpg'
         msg.textContent = ' " Deus diz: tenha bom ânimo, pois estou no controle de tudo! " '
     }
+         
+
+        if ((dia == 19)&&(mes == 01)){
+            img.src = 'imagens/flavia.jpg'
+            msg.textContent = 'Fávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
+        } else('diaDaSemana')
+
+        if ((dia == 11)&&(mes == 02)){
+            img.src = 'imagens/israel.jpg'
+            msg.textContent = 'Israel, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. Parabéns ! '
+        } else('diaDaSemana')
 
        if ((dia == 11)&&(mes == 03)){
-        img.src = 'imagens/faa.jpg'
+        img.src = 'imagens/fabiola.jpg'
+        msg.textContent = 'Fabíola, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        } else ('diaDaSemana')
 
-       if ((dia == 10)&&(mes == 10)){
+       if ((dia == 12)&&(mes == 03)){
         img.src = 'imagens/elisa.jpg'
+        msg.textContent = 'Elisa parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
        } else ('diaDaSemana')
+       if ((dia == 25)&&(mes == 03)){
+        img.src = 'imagens/tati.jpg'
+        msg.textContent = 'Tatiana, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
+       } else ('diaDaSemana')
+
+       if ((dia == 28)&&(mes == 03)) {
+        img.src = 'imagens/sandro.jpg'
+        msg.textContent = 'Sandro, que falta você faz para nós, um abraço de todos os teus familiares ! Amor eterno.  '
+       } else ('diaDaSemana')
+
+       if ((dia == 07)&&(mes == 04)){
+        img.src = 'imagens/bel.jpg'
+        msg.textContent = 'Isabel, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+       } else ('diaDaSemana')
+
+       if ((dia == 14)&&(mes == 04)){
+        img.src = 'imagens/vitoria.jpg'
+        msg.textContent = 'Vitória, Tudo de bom a você ! celebre este dia com muita alegria e gratidão a DEUS ! Parabéns'
+       } else ('diaDaSemana')
+
+       if ((dia == 29)&&(mes == 05)){
+        img.src = 'imagens/joel.jpg'
+        msg.textContent = ' Joel, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
+       } else ('diaDaSemana')
+
+       if ((dia == 25)&&(mes == 06)){
+        img.src = 'imagens/dani.jpg'
+        msg.textContent = 'Daniela, hoje é seu dia  minha parceira! e só tenho a agradecer por ser minha companheira por todos os momentos da minha vida, parabéns , te AMO !'
+       } else ('diaDaSemana')
+
+       if ((dia == 02)&&(mes == 08)){
+        img.src = 'imagens/pai.jpg'
+        msg.textContent = 'Pai, neste dia, quero agradecer por tudo e lembrar que, para todos nós, você é motivo de orgulho! muita paz, saúde e felicidades !'
+       } else ('diaDaSemana')
+
+       if ((dia == 25)&&(mes ==08)){
+        img.src = 'imagens/camila.jpg'
+        msg.textContent = 'Camila,  Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+       }else ('diaDaSemana')
+
+       if ((dia == 16)&&(mes == 09)){
+        img.src = 'imagens/charles.jpg'
+        msg.textContent = ' Hoje é o meu dia ! Parabéns pra mim e muita saúde, paz e muito DEUS no coração'
+       }else ('diaDaSemana')
+       
+       if ((dia == 17)&&(mes == 09)){
+        img.src = 'imagens/bianca.jpg'
+        msg.textContent = ' Bianca, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
+      } else ('diaDaSemana')
+
+      if ((dia == 25)&&(mes == 09)){
+        img.src = 'imagens/rafael.jpg'
+        msg.textContent = ' Rafael, Tudo de bom a você ! celebre este dia com muita alegria e gratidão a DEUS ! Parabéns'
+      } else ('diaDaSemana')
+
+      if ((dia == 26)&&(mes == 09)){
+        img.src = 'imagens/felipe.jpg'
+        msg.textContent = ' Felipe, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
+       } else ('diaDaSemana')
+
+       if ((dia == 31)&&(mes == 10)){
+        img.src = 'imagens/dupla.jpg'
+        msg.textContent = ' Tiago, Wendell, Parabéns a vocês !! E que cada um, ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+      }else ('diaDaSemana')
+
+      if ((dia == 16)&&(mes == 11)){
+        img.src = 'imagens/bia.jpg'
+        msg.textContent = 'Bia, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+       }else ('diaDaSemana')
+
+     if ((dia == 23)&&(mes == 11)){
+        img.src = 'imagens/duplam.jpg'
+        msg.textContent = ' Anna , Laura : Parabéns a vocês duas, que DEUS ilumine a cada uma de vocês, e que vocês continuem iluminando por onde passam ! '
+       }else ('diaDaSemana')
+      
+
+
+       
+      
+      
+       
 
 
     

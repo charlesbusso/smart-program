@@ -6,6 +6,7 @@
 }
 @import url('https://fonts.googleapis.com/css2? family= Arquivo & family= Nova+Mono & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Gochi+Hand&display=swap');
 
 
 section {
@@ -77,7 +78,7 @@ picture{
  #mensagem{
     color: black;
     font-size: 1.5rem;
-    font-family: 'Lobster', cursive;
+    font-family: 'Gochi Hand', cursive;
     margin-bottom: 15px;
     
  }
