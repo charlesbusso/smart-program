@@ -77,7 +77,7 @@ function moveRelogio() {
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
-        msg.textContent = ' "Procure ao SENHOR, da mesma forma que vc procurou o carregador  quando a bateria estava  com 1% " '
+        msg.textContent = ' " DEUS,se algum dia eu perder a esperança, por favor , me ajuda a lembrar que os teus planos são melhores que os meus !" '
         
     }
         else if (diaDaSemana === 'TER'){
@@ -146,6 +146,11 @@ function moveRelogio() {
         msg.textContent = 'Vitória, Tudo de bom a você ! celebre este dia com muita alegria e gratidão a DEUS ! Parabéns'
        } else ('diaDaSemana')
 
+       if ((dia == 18)&&(mes == 05)){
+        img.src = 'imagens/ivo.jpg'
+        msg.textContent = ' Ivo, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
+       } else ('diaDaSemana')
+
        if ((dia == 29)&&(mes == 05)){
         img.src = 'imagens/joel.jpg'
         msg.textContent = ' Joel, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
@@ -184,6 +189,11 @@ function moveRelogio() {
       if ((dia == 26)&&(mes == 09)){
         img.src = 'imagens/felipe.jpg'
         msg.textContent = ' Felipe, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
+       } else ('diaDaSemana')
+
+       if ((dia == 01)&&(mes == 10)){
+        img.src = 'imagens/ceia.jpg'
+        msg.textContent = ' Céia, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
        } else ('diaDaSemana')
 
        if ((dia == 31)&&(mes == 10)){
