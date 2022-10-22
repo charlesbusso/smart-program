@@ -171,7 +171,7 @@ function moveRelogio() {
         msg.textContent = 'Camila,  Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        }else ('diaDaSemana')
 
-       if ((dia == 21)&&(mes == 10)){
+       if ((dia == 16)&&(mes == 09)){
         img.src = 'imagens/charles.jpg'
         msg.textContent = ' Hoje é o meu dia ! Parabéns pra mim e muita saúde, paz e muito DEUS no coração'
        }else ('diaDaSemana')
