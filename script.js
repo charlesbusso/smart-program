@@ -198,7 +198,7 @@ function moveRelogio() {
 
        if ((dia == 31)&&(mes == 10)){
         img.src = 'imagens/dupla.jpg'
-        msg.textContent = ' Thiago, Wendell, Parabéns a vocês !! E que cada um, ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+        msg.textContent = ' Thiago, Wendell, Parabéns a vocês !! E que cada um de vocês ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
       }else ('diaDaSemana')
 
       if ((dia == 16)&&(mes == 11)){
