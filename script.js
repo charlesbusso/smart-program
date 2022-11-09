@@ -211,18 +211,6 @@ function moveRelogio() {
         img.src = 'imagens/duplam.jpg'
         msg.textContent = ' Anna , Laura : Parabéns a vocês duas, que DEUS ilumine a cada uma de vocês, e que vocês continuem iluminando por onde passam ! '
        }else ('diaDaSemana')
-            
-       
-        
-        
-     
-
-
-       
-      
-      
-       
-
 
     
     }
