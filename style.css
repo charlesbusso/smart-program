@@ -38,6 +38,8 @@ section {
 }
 #telaSmart a{
     color: yellow;
+    font-size: 1rem;
+    cursor: pointer;
 }
 #relogioSmart{
     user-select: none;
