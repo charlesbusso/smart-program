@@ -18,7 +18,7 @@ section {
     
 }
 #telaSmart{
-    width: 350px;
+    width: 550px;
     font-family: 'DM Mono' monospace;
     display: flex;
     flex-direction: column;
@@ -31,6 +31,12 @@ section {
     text-align: center;
     font-size: 1rem;
     align-items: center;
+}
+#telaSmart p {
+    color: white;
+}
+#telaSmart a{
+    color: yellow;
 }
 #relogioSmart{
     user-select: none;
@@ -104,6 +110,9 @@ img{
     border-radius: 10px;
 }
 #mensagem { font-size: 1.1rem; text-align: center;}
+#telaSmart{
+    width: 350px;
+}
 
 }
 footer p{

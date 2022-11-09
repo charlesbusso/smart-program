@@ -4,7 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2? family= Arquivo & family= Nova+Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Gochi+Hand&display=swap');
+
 header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     padding: 20px;
     width: 100%;
@@ -13,48 +18,63 @@ header{
 }
 header h1 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 3rem;
 }
 header p {
     text-align: center;
     font-size: 1.2rem;
 }
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .eventos{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 800px;
     padding: 15px;
-    margin: 5px;
+    margin: 25px 0px;
     border: 2px solid black;
     border-radius: 5px;
     text-align: center;
-}
-.eventos > input{
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 100px;
+    justify-content: center;
     
 }
+.eventos h2 {
+    margin-bottom: 10px;
+}
+
 .data{
     display: flex;
     justify-content: space-around;
      
 }
-#mens{
-    border: 2px solid black;
-    border-radius: 3px;
-    margin-bottom: 5px;
-    background-color: black;
-    color: white;
-    width: 30px;
-}
+
 .eventos img {
-    width: 400px;
-    margin-left: 50px;
+    width: 600px;
     margin-bottom: 15px;
     border-radius: 5px;
 }
 .eventos p{
     font-size: 1.2rem;
+}
+@media(max-width: 700px){
+    .eventos{
+        width: 100%;
+        
+    }
+    .eventos img {
+        width: 90%;
+    }
+    header {
+        height: 250px;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header p{
+        font-size: 1rem;
+    }
 }

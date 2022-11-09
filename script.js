@@ -125,7 +125,7 @@ function moveRelogio() {
 
        if ((dia == 12)&&(mes == 03)){
         img.src = 'imagens/elisa.jpg'
-        msg.textContent = 'Eliza parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+        msg.textContent = 'Elisa parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
        } else ('diaDaSemana')
        if ((dia == 25)&&(mes == 03)){
         img.src = 'imagens/tati.jpg'
@@ -139,7 +139,7 @@ function moveRelogio() {
 
        if ((dia == 07)&&(mes == 04)){
         img.src = 'imagens/bel.jpg'
-        msg.textContent = 'Isabel, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+        msg.textContent = 'Maria Isabel, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        } else ('diaDaSemana')
 
        if ((dia == 14)&&(mes == 04)){
