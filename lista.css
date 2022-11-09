@@ -62,7 +62,7 @@ section{
 }
 @media(max-width: 700px){
     .eventos{
-        width: 90%;
+        width: 80%;
         
     }
     .eventos img {
@@ -75,6 +75,6 @@ section{
         font-size: 2rem;
     }
     header p{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
