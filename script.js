@@ -23,6 +23,7 @@ function moveRelogio() {
     let msg = document.getElementById('mensagem');
     let dia = dataHora.getDate();
     let mes = dataHora.getMonth()+1;
+    
    
 
     let strDia = new String(dia);
@@ -210,7 +211,11 @@ function moveRelogio() {
         img.src = 'imagens/duplam.jpg'
         msg.textContent = ' Anna , Laura : Parabéns a vocês duas, que DEUS ilumine a cada uma de vocês, e que vocês continuem iluminando por onde passam ! '
        }else ('diaDaSemana')
-      
+            
+       
+        
+        
+     
 
 
        
