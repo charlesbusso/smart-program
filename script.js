@@ -124,8 +124,8 @@ function moveRelogio() {
        } else ('diaDaSemana')
 
        if ((dia == 12)&&(mes == 03)){
-        img.src = 'imagens/elisa.jpg'
-        msg.textContent = 'Elisa parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+        img.src = 'imagens/eliza.jpg'
+        msg.textContent = 'Eliza parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
        } else ('diaDaSemana')
        if ((dia == 25)&&(mes == 03)){
         img.src = 'imagens/tati.jpg'
