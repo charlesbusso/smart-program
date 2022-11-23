@@ -21,8 +21,8 @@ function moveRelogio() {
     let diaDaSemana = dataHora.getDay();
     let img = document.getElementById('imagem');
     let msg = document.getElementById('mensagem');
-    let dia = dataHora.getDate();
-    let mes = dataHora.getMonth()+1;
+    let dia = 23 //dataHora.getDate();
+    let mes = 11 //dataHora.getMonth()+1;
     
    
 
@@ -124,8 +124,8 @@ function moveRelogio() {
        } else ('diaDaSemana')
 
        if ((dia == 12)&&(mes == 03)){
-        img.src = 'imagens/elisa.jpg'
-        msg.textContent = 'Elisa parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+        img.src = 'imagens/eliza.jpg'
+        msg.textContent = 'Eliza parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
        } else ('diaDaSemana')
        if ((dia == 25)&&(mes == 03)){
         img.src = 'imagens/tati.jpg'
@@ -208,8 +208,8 @@ function moveRelogio() {
        }else ('diaDaSemana')
 
      if ((dia == 23)&&(mes == 11)){
-        img.src = 'imagens/duplam.jpg'
-        msg.textContent = ' Anna , Laura : Parabéns a vocês duas, que DEUS ilumine a cada uma de vocês, e que vocês continuem iluminando por onde passam ! '
+        img.src = 'imagens/laura.jpg'
+        msg.textContent = 'Laura , Parabéns a você , que DEUS te ilumine sempre , e que você continue iluminando por onde passa ! '
        }else ('diaDaSemana')
 
     
