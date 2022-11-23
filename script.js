@@ -208,8 +208,8 @@ function moveRelogio() {
        }else ('diaDaSemana')
 
      if ((dia == 23)&&(mes == 11)){
-        img.src = 'imagens/anna.jpg'
-        msg.textContent = 'Anna  , Parabéns a você , que DEUS te ilumine sempre , e que você continue iluminando por onde passa ! '
+        img.src = 'imagens/duplam.jpg'
+        msg.textContent = ' Laura e Anna  , Parabéns !!! , que DEUS  ilumine a cada uma de vocês sempre , e que vocês continuem iluminando por onde passam ! '
        }else ('diaDaSemana')
 
     
