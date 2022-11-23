@@ -21,8 +21,8 @@ function moveRelogio() {
     let diaDaSemana = dataHora.getDay();
     let img = document.getElementById('imagem');
     let msg = document.getElementById('mensagem');
-    let dia = 23 //dataHora.getDate();
-    let mes = 11 //dataHora.getMonth()+1;
+    let dia = dataHora.getDate();
+    let mes = dataHora.getMonth()+1;
     
    
 
