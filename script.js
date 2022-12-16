@@ -106,7 +106,10 @@ function moveRelogio() {
         img.src = 'imagens/caminho.jpg'
         msg.textContent = ' " Deus diz: tenha bom ânimo, pois estou no controle de tudo! " '
     }
-         
+         if ((dia == 01)&&(mes == 01)){
+        img.src = 'imagens/anonovo.jpg'
+        msg.textContent = 'Feliz Ano Novo !! Neste ano, desejo a vocês não apenas alegria, saúde,  mas também muitos sonhos realizados !'
+         }else ('diaDaSemana')
 
         if ((dia == 19)&&(mes == 01)){
             img.src = 'imagens/flavia.jpg'
@@ -219,10 +222,12 @@ function moveRelogio() {
         img.src = 'imagens/vespera.jpg'
         msg.textContent = 'Que a magia do natal quebre todas as barreiras que nos impedem de viver o imenso amor de DEUS. Boas Festas !'
        }else ('diaDaSemana')
-       if ((dia == 01)&&(mes == 01)){
-        img.src = 'imagens/anonovo.jpg'
-        msg.textContent = 'Feliz Ano Novo !! Neste ano, desejo a vocês não apenas alegria, saúde,  mas também muitos sonhos realizados !'
-       }else ('diaDaSemana')
+       
+       if ((dia == 31)&&(mes ==12)) {
+        img.src = 'imagens/vesperano.jpg'
+        msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano com as pessoas que você mais ama .'
+       }
+       
 
     
     }
