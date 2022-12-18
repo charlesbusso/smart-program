@@ -113,7 +113,7 @@ function moveRelogio() {
 
         if ((dia == 19)&&(mes == 01)){
             img.src = 'imagens/flavia.jpg'
-            msg.textContent = 'Fávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
+            msg.textContent = 'Flávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
         } else('diaDaSemana')
 
         if ((dia == 11)&&(mes == 02)){
