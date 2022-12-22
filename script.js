@@ -215,17 +215,17 @@ function moveRelogio() {
         msg.textContent = ' Laura e Anna  , Parabéns !!! , que DEUS  ilumine a cada uma de vocês sempre , e que vocês continuem iluminando por onde passam ! '
        }else ('diaDaSemana')
        if ((dia == 24)&&(mes == 12)){
-        img.src = 'imagens/natal.jpg'
+        img.src = 'imagens/vespera.jpg'
         msg.textContent = ' Feliz Natal !! Que Deus possa reviver a fé dentro do seu coração e encher sua vida de amor ! '
        }else ('diaDaSemana')
        if((dia == 25)&&(mes == 12)){
-        img.src = 'imagens/vespera.jpg'
+        img.src = 'imagens/natal.jpg'
         msg.textContent = 'Que a magia do natal quebre todas as barreiras que nos impedem de viver o imenso amor de DEUS. Boas Festas !'
        }else ('diaDaSemana')
        
        if ((dia == 31)&&(mes ==12)) {
         img.src = 'imagens/vesperano.jpg'
-        msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano com as pessoas que você mais ama .'
+        msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano e agradeça a DEUS por mais essa vitória .'
        }
        
 
