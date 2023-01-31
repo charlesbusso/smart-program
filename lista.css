@@ -79,6 +79,7 @@ section{
     }
     #dvslider{
         display: flex;
+        width: 100%;
         justify-content: space-between;
         height: 400px;
         background-repeat: no-repeat;
@@ -96,5 +97,16 @@ section{
         height: 100%;
         background-color: blue;
         border-radius: 8px;
+       }
+       .btslider{
+        height: 40%;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        outline: none;
+        border-radius: 10px;
+        margin-top: 30%;
+
        }
 }
