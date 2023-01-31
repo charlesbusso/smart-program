@@ -46,7 +46,7 @@ section{
     margin-bottom: 10px;
 }
 
-.data{
+#data{
     display: flex;
     justify-content: space-around;
      

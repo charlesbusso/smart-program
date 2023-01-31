@@ -19,8 +19,8 @@
         <div class="eventos">
             
                 <div>
-                    <div class="data">
-                    <h2>19 de janeiro</h2>
+                    <div id="data">
+                    <h2 id="msg"></h2>
                     </div>
                      
                 </div>
@@ -29,7 +29,7 @@
                         <div></div>
                         <button class="btslider" onclick="troca(1)"> > </button>
                 </div>
-                    <div id="parag">' Flávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '</div>
+                    <div id="parag"> </div>
                     <div id="dvload">
                         <div id="dvbarra"></div>
                     </div>
@@ -310,6 +310,8 @@
         let vtempo;
         let vbarra;
         let tempoTroca;
+        let parag = document.getElementById('parag');
+        let msg = document.getElementById('msg');
 
         function preCarregamento(){
             let s = 1;
@@ -321,7 +323,9 @@
                
         }
         function carregarImg(img){
-            slider.style.backgroundImage = "url('"+imgs[img].src +"')";            
+            slider.style.backgroundImage = "url('"+imgs[img].src +"')";        
+            
+           
         }
         function inicia(){
             preCarregamento();
@@ -341,7 +345,48 @@
                 imgAtual = 0;
             }else if(imgAtual < 0){
                 imgAtual = maxImg;
+                
             }
+             else if(imgAtual == 0){
+                msg.textContent = '19 de Janeiro'
+                parag.textContent = 'Flávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
+            }else if(imgAtual == 1){
+                msg.textContent = '11 de Fevereiro'
+                parag.textContent = 'Israel, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. Parabéns ! '
+            }else if(imgAtual == 2){
+                msg.textContent = '11 de Março'
+                parag.textContent = 'Fabíola, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+            }
+            else if(imgAtual == 3){
+                msg.textContent = '12 de Março'
+                parag.textContent = 'Eliza parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+            }
+            else if(imgAtual == 4){
+                msg.textContent = '25 de Março'
+                parag.textContent = 'Tatiana, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns !'
+            }
+            else if(imgAtual == 5){
+                msg.textContent = '28 de Março'
+                parag.textContent = 'Sandro, que falta você faz para nós, um abraço de todos os teus familiares ! Amor eterno.'
+            }
+            else if(imgAtual == 6){
+                msg.textContent = '07 de Abril'
+                parag.textContent = 'Maria Isabel, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+            }
+            else if(imgAtual == 7){
+                msg.textContent = '14 de Abril'
+                parag.textContent = 'Vitória, Tudo de bom a você ! celebre este dia com muita alegria e gratidão a DEUS ! Parabéns'
+            }
+            else if(imgAtual == 8){
+                msg.textContent = '18 de Abril'
+                parag.textContent = 'Ivo, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns !!'
+            }
+            
+            
+            
+         
+
+
             carregarImg(imgAtual);
         }
 
