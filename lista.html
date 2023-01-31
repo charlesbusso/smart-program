@@ -22,10 +22,20 @@
                     <div class="data">
                     <h2>19 de janeiro</h2>
                     </div>
-            
-                    <div><img src="imagens/flavia.jpg" alt="imagem da flávia"></div>
-                    <div>' Flávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '</div>
+                     
                 </div>
+                <div id="dvslider">
+                    <button class="btslider" onclick="troca(-1)"> < </button>
+                        <div></div>
+                        <button class="btslider" onclick="troca(1)"> > </button>
+                </div>
+                    <div id="parag">' Flávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '</div>
+                    <div id="dvload">
+                        <div id="dvbarra"></div>
+                    </div>
+                </div>
+                
+                
         </div>  
     </section>
     <section >
@@ -287,10 +297,71 @@
             </div>
         </div>  
 
-    </section>
+    </section> 
    
 
+    <script>
 
+        let slider;
+        let imgs = [];
+        let imgAtual;
+        let maxImg;
+        let tmp;
+        let vtempo;
+        let vbarra;
+        let tempoTroca;
+
+        function preCarregamento(){
+            let s = 1;
+            for (let i=0; i<23; i++){
+                imgs[i] = new Image();
+                imgs[i] .src = "imgs/s" +s+ ".jpg";
+                s++;
+            }
+               
+        }
+        function carregarImg(img){
+            slider.style.backgroundImage = "url('"+imgs[img].src +"')";            
+        }
+        function inicia(){
+            preCarregamento();
+            imgAtual = 0;
+            maxImg = imgs.length-1;
+            slider = document.getElementById('dvslider');
+            vbarra = document.getElementById('dvbarra');
+            carregarImg(imgAtual);
+            tempoTroca = 0;
+            anima();
+        }
+
+        function troca(dir){
+            tempoTroca = 0;
+            imgAtual += dir;
+            if(imgAtual > maxImg){
+                imgAtual = 0;
+            }else if(imgAtual < 0){
+                imgAtual = maxImg;
+            }
+            carregarImg(imgAtual);
+        }
+
+        function anima(){
+            tempoTroca ++;
+            if(tempoTroca >= 500){
+                tempoTroca = 0;
+                troca(1);
+            }
+            vtempo = tempoTroca/5;
+            vbarra.style.width = vtempo + '%';
+
+            window.requestAnimationFrame(anima);
+
+        }
+        window.addEventListener("load", inicia);
+
+
+
+    </script>
     
 </body>
 </html>
