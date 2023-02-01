@@ -51,7 +51,11 @@ section{
     justify-content: space-around;
      
 }
-
+#parag{
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+}
 .eventos img {
     width: 600px;
     margin-bottom: 15px;
@@ -113,6 +117,7 @@ section{
        #dvslider{
         width: 350px;
         background-repeat: no-repeat;
+        background-position: center;
 
 
 
