@@ -138,7 +138,14 @@ section{
         border-radius: 10px;
         margin-top: 40%;
         
+        
 
+       }
+       .btslider:last-child{
+        margin-left: 10px;
+       }
+       .btslider:first-child{
+        margin-right: 10px;
        }
        #dvslider{
         width: 350px;
