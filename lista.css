@@ -69,6 +69,8 @@ section{
     color: black;
     font-weight: bolder;
 }
+  #dvload{
+        width: 80%;
 .btslider{
     height: 40%;
     background-color: rgba(0, 0, 0, 0.4);
