@@ -171,10 +171,10 @@ section{
 
        }
        .btslider:last-child{
-        margin-left: 12px;
+        margin-left: 5px;
        }
        .btslider:first-child{
-        margin-right: 12px;
+        margin-right: 5px;
        }
        #dvslider{
         width: 350px;
