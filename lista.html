@@ -58,7 +58,7 @@
 
         function preCarregamento(){
             let s = 1;
-            for (let i=0; i<23; i++){
+            for (let i=0; i<24; i++){
                 imgs[i] = new Image();
                 imgs[i] .src = "imgs/s" +s+ ".jpg";
                 s++;
@@ -73,7 +73,7 @@
         function inicia(){
             preCarregamento();
             imgAtual = 0;
-            msg.textContent = 'Inicia por ordem de data';
+            msg.textContent = 'O slider inicia por ordem de data de nascimento';
             parag.textContent = '';
             maxImg = imgs.length-1;
             slider = document.getElementById('dvslider');
@@ -88,102 +88,104 @@
             imgAtual += dir;
             if(imgAtual > maxImg){
                 imgAtual = 0;
-                msg.textContent = '19 de Janeiro'
-                parag.textContent = 'Flávia'
+                msg.textContent = 'o slider inicia por ordem de data de nascimento'
+                parag.textContent = ''
             }else if(imgAtual < 0){
                 imgAtual = maxImg;
                 msg.textContent = '23 de Novembro'
                 parag.textContent = 'Laura'
-
             }else if(imgAtual == 0){
+                msg.textContent = 'O slider inicia por ordem de data de nascimento'
+                parag.textContent = ''
+            }else if(imgAtual == 1){
                 msg.textContent = '19 de Janeiro'
                 parag.textContent = 'Flávia'
-            }else if(imgAtual == 1){
+            }else if(imgAtual == 2){
                 msg.textContent = '11 de Fevereiro'
                 parag.textContent = 'Israel'
             
-            }else if(imgAtual == 2){
+            }else if(imgAtual == 3){
                 msg.textContent = '11 de Março'
                 parag.textContent = 'Fabíola' 
                 
             }
-            else if(imgAtual == 3){
+            else if(imgAtual == 4){
                 msg.textContent = '12 de Março'
                 parag.textContent = 'Eliza'
             }
-            else if(imgAtual == 4){
+            else if(imgAtual == 5){
                 msg.textContent = '25 de Março'
                 parag.textContent = 'Tatiana'
             }
-            else if(imgAtual == 5){
+            else if(imgAtual == 6){
                 msg.textContent = '28 de Março'
                 parag.textContent = 'Sandro'
             }
-            else if(imgAtual == 6){
+            else if(imgAtual == 7){
                 msg.textContent = '07 de Abril'
                 parag.textContent = 'Maria Izabel'
             }
-            else if(imgAtual == 7){
+            else if(imgAtual == 8){
                 msg.textContent = '14 de Abril'
                 parag.textContent = 'Vitória'
             }
-            else if(imgAtual == 8){
+            else if(imgAtual == 9){
                 msg.textContent = '18 de Maio'
                 parag.textContent = 'Ivo'
             }
-            else if(imgAtual == 9){
+            else if(imgAtual == 10){
                 msg.textContent = '29 de Maio'
                 parag.textContent = 'Joel'
             }
-            else if(imgAtual == 10){
+            else if(imgAtual == 11){
                 msg.textContent = '25 de Junho'
                 parag.textContent = 'Daniela'
             }
-            else if(imgAtual == 11){
+            else if(imgAtual == 12){
                 msg.textContent = '02 de Agosto'
                 parag.textContent = 'Carlos'
             }
-            else if(imgAtual == 12){
+            else if(imgAtual == 13){
                 msg.textContent = '25 de Agosto'
                 parag.textContent = 'Camila'
             }
-            else if(imgAtual == 13){
+            else if(imgAtual == 14){
                 msg.textContent = '16 de Setembro'
                 parag.textContent = 'Charles'
             }
-            else if(imgAtual == 14){
+            else if(imgAtual == 15){
                 msg.textContent = '17 de Setembro'
                 parag.textContent = 'Bianca'           
             }
-            else if(imgAtual == 15){
+            else if(imgAtual == 16){
                 msg.textContent = '25 de Setembro'
                 parag.textContent = 'Rafael'
             }
-            else if(imgAtual == 16){
+            else if(imgAtual == 17){
                 msg.textContent = '26 de Setembro'
                 parag.textContent = 'Felipe'
             }
-            else if(imgAtual == 17){
+            else if(imgAtual == 18){
                 msg.textContent = '01 de Outubro'
                 parag.textContent = 'Céia'
             }
-            else if(imgAtual == 18){
+            else if(imgAtual == 19){
                 msg.textContent = '31 de Outubro'
                 parag.textContent = 'Thiago'
             }
-            else if(imgAtual == 19){
+            else if(imgAtual == 20){
                 msg.textContent = '31 de Outubro'
                 parag.textContent = 'Wendell'
             }
-            else if(imgAtual == 20){
+            else if(imgAtual == 21){
                 msg.textContent = '16 de Novembro'
                 parag.textContent = 'Bia'
             }
-            else if(imgAtual == 21){
+            else if(imgAtual == 22){
                 msg.textContent = '23 de Novembro'
                 parag.textContent = 'Anna Doná'
             }
-            else if(imgAtual == 22){
+            else if(imgAtual == 23){
                 msg.textContent = '23 de Novembro'
                 parag.textContent = 'Laura'
             }
