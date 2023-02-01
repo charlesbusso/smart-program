@@ -86,9 +86,11 @@
             imgAtual += dir;
             if(imgAtual > maxImg){
                 imgAtual = 0;
+                msg.textContent = 'Inicia por ordem de data'
             }else if(imgAtual < 0){
                 imgAtual = maxImg;
-                
+                msg.textContent = '23 de Novembro'
+                parag.textContent = 'Laura'
             }
              else if(imgAtual == 0){
                 msg.textContent = 'Inicia por ordem de Data'
