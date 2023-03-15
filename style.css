@@ -75,6 +75,18 @@ section {
     
     
 }
+.cidade{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+}
 picture{
     width: 100%;
     display: flex;

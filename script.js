@@ -2,10 +2,11 @@
 let hSmart = document.querySelector('#hSmart');
 let mSmart = document.querySelector('#mSmart');
 let sSmart = document.querySelector('#sSmart');
-
+let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
 let data = document.querySelector('#data');
 let semana = document.querySelector('#semana');
 let dataHora = new Date();
+
 
 
 function moveRelogio() {
@@ -239,6 +240,7 @@ function pegarData() {
     let dia = dataHora.getDate();
     let mes = dataHora.getMonth()+1;
     let ano = dataHora.getFullYear();
+  
     
     let strDia = new String(dia);
     let strMes = new String(mes);
@@ -292,6 +294,7 @@ var options = {
 }
 
 function getUserPosition() {
+    let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
     let url = ''
     navigator.geolocation.getCurrentPosition((pos) => {
       let lat = pos.coords.latitude
@@ -302,9 +305,11 @@ function getUserPosition() {
     })
 }
 function fetchApi(url) {
+    windElement =document.querySelector('wind')
     let city = document.querySelector('.city')
     let temperatura = document.querySelector('#temp')
     let humidity = document.querySelector ('#umidad')
+    let description = document.querySelector('#description')
 
     fetch (url)
     .then((data) => {
@@ -326,5 +331,24 @@ function fetchApi(url) {
     
 })
 }
+const getWeatherData = async (city) => {
+    const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
+
+    const res = await fetch(apiWeatherURL);
+    const data = await res.json();
+     return data;
+};
+const showWeatherData = async (city) => {
+    const data = await getWeatherData(city);
+    temperatura.innerHTML = parseInt(data.main.temp)
+    description.innerHTML = data.weather[0].description;
+    weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
+   
+    temperatura.innerHTML = `${data.main.humidity}%`;
+    windElement.innerHTML = `${data.wind.speed}Km/h`;
+};
 
 getUserPosition();
+
+
+
