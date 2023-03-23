@@ -33,7 +33,7 @@ section {
     align-items: center;
 }
 #telaSmart p {
-    color: white;
+    
     font-size: 1rem;
 }
 #telaSmart a{
@@ -65,7 +65,7 @@ section {
     margin-right: 15px;
     font-size: 1.7rem;
 }
-#temperatura{
+#temperature{
     user-select: none;
     margin-top: 1rem;
     font-family: sans-serif;
@@ -74,6 +74,9 @@ section {
     
     
     
+}
+#weather-icon{
+    margin: 0px;
 }
 .cidade{
     width: 180px;
@@ -86,7 +89,52 @@ section {
     justify-content: space-around;
     align-items: center;
     width: 140px;
+    text-transform: capitalize;
 }
+/*#weather-data{
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}*/
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#weather-data h2 i{
+    font-size: 1rem;
+}
+#weather-data span{
+    margin: 0.3rem;
+    
+}
+#weather-data img{
+    width: 2rem;
+    height: 2rem;
+
+}
+#description-container{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0.4rem;
+    color: white;
+}
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#wind{
+    width: 140px;
+    color:cyan;
+
+}
+
 picture{
     width: 100%;
     display: flex;

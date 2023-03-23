@@ -2,7 +2,7 @@
 let hSmart = document.querySelector('#hSmart');
 let mSmart = document.querySelector('#mSmart');
 let sSmart = document.querySelector('#sSmart');
-let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
+
 let data = document.querySelector('#data');
 let semana = document.querySelector('#semana');
 let dataHora = new Date();
@@ -305,11 +305,12 @@ function getUserPosition() {
     })
 }
 function fetchApi(url) {
-    windElement =document.querySelector('wind')
-    let city = document.querySelector('.city')
+ 
+    let description = document.querySelector('#description')
+    let city = document.querySelector('#city')
     let temperatura = document.querySelector('#temp')
     let humidity = document.querySelector ('#umidad')
-    let description = document.querySelector('#description')
+    
 
     fetch (url)
     .then((data) => {
@@ -319,8 +320,12 @@ function fetchApi(url) {
         let tempInCelsius = ((5/9)  * (data.main.temp-32)).toFixed(1);
 
         city.textContent = data.name
-        temperatura.innerHTML = tempInCelsius
-        humidity.innerHTML = data.main.humidity
+        tempElement.innerHTML = tempInCelsius
+        descElement.innerHTML = data.weather[0].description;
+        weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
+        windElement.innerHTML = `${data.wind.speed}Km/h`;
+       // temperatura.innerHTML = tempInCelsius
+        //humidity.innerHTML = data.main.humidity
     })
     .catch((err) => {
     city.innerHTML = 'Impossivel acessar o OpenWeatcher. Verifique a sua conexão.';
@@ -331,7 +336,20 @@ function fetchApi(url) {
     
 })
 }
+
+
+    let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
+    let apiCountryURL = "https://countryflagsapi.com/png/";
+    let apiUnsplash = "https://source.unsplash.com/1600x900/?";
+    let weatherIconElement = document.querySelector("#weather-icon");
+    let cityElement = document.querySelector("#city");
+    let tempElement = document.querySelector("#temperature span");
+    let descElement = document.querySelector("#description");
+    let windElement = document.querySelector("#wind span");
+
+
 const getWeatherData = async (city) => {
+    
     const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
 
     const res = await fetch(apiWeatherURL);
@@ -340,12 +358,11 @@ const getWeatherData = async (city) => {
 };
 const showWeatherData = async (city) => {
     const data = await getWeatherData(city);
-    temperatura.innerHTML = parseInt(data.main.temp)
-    description.innerHTML = data.weather[0].description;
+   /* cityElement.innerText = data.name;
+    tempElement.innerHTML = parseInt(data.main.temp)
+    descElement.innerHTML = data.weather[0].description;
     weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
-   
-    temperatura.innerHTML = `${data.main.humidity}%`;
-    windElement.innerHTML = `${data.wind.speed}Km/h`;
+    windElement.innerHTML = `${data.wind.speed}Km/h`;*/
 };
 
 getUserPosition();
