@@ -138,7 +138,7 @@ function moveRelogio() {
 
        if ((dia == 28)&&(mes == 03)) {
         img.src = 'imagens/sandro.jpg'
-        msg.textContent = 'Sandro, que falta você faz para nós, um abraço de todos os teus familiares ! Amor eterno.  '
+        msg.textContent = 'Sandro, o que vale, é as lembranças de uma pessoa íntegra, dedicada e inspiradora que você era. É uma pena que você foi cedo demais. Todos os teus familiares sentem sua falta!  '
        } else ('diaDaSemana')
 
        if ((dia == 07)&&(mes == 04)){
