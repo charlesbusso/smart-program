@@ -120,7 +120,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0.6rem 0.4rem;
+    margin: 0.4rem 0.2rem;
     color: white;
 }
 #details-container{
@@ -130,7 +130,7 @@ section {
     
 }
 #wind{
-    width: 140px;
+    width: 190px;
     color:cyan;
 
 }
