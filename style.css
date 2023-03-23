@@ -75,9 +75,9 @@ section {
     
     
 }
-#weather-icon{
+/*#weather-icon{
     margin: 0px;
-}
+}*/
 .cidade{
     width: 180px;
     display: flex;
@@ -101,7 +101,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 #weather-data h2 i{
     font-size: 1rem;
@@ -111,14 +111,14 @@ section {
     
 }
 #weather-data img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 
 }
 #description-container{
     width: 140px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 0.6rem 0.4rem;
     color: white;
