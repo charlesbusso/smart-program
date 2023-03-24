@@ -86,7 +86,7 @@ section {
 }
 #description{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 250px;
     text-transform: capitalize;
@@ -101,7 +101,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.3rem;
 }
 #weather-data h2 i{
     font-size: 1rem;
@@ -118,7 +118,7 @@ section {
 #description-container{
     width: 250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0.4rem 0.2rem;
     color: white;
@@ -130,6 +130,8 @@ section {
     
 }
 #wind{
+    display: flex;
+    justify-content: space-around;
     width: 190px;
     color:cyan;
 
