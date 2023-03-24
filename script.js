@@ -323,7 +323,7 @@ function fetchApi(url) {
         tempElement.innerHTML = tempInCelsius
         descElement.innerHTML = data.weather[0].description;
         weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
-        windElement.innerHTML = `${data.wind.speed}Km/h`;
+        
         temperature.innerHTML = tempInCelsius
         //humidity.innerHTML = data.main.humidity
     })
