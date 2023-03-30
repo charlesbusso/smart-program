@@ -203,7 +203,7 @@ function moveRelogio() {
 
        if ((dia == 31)&&(mes == 10)){
         img.src = 'imagens/dupla.jpg'
-        msg.textContent = ' Thiago, Wendell, Parabéns a vocês !! E que cada um de vocês ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+        msg.textContent = ' Tiago, Wendell Parabéns a vocês !! E que cada um de vocês iluminem o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
       }else ('diaDaSemana')
 
       if ((dia == 16)&&(mes == 11)){
@@ -212,8 +212,8 @@ function moveRelogio() {
        }else ('diaDaSemana')
 
      if ((dia == 23)&&(mes == 11)){
-        img.src = 'imagens/duplam.jpg'
-        msg.textContent = ' Laura e Anna  , Parabéns !!! , que DEUS  ilumine a cada uma de vocês sempre , e que vocês continuem iluminando por onde passam ! '
+        img.src = 'imagens/laura.jpg'
+        msg.textContent = ' Anna e Laura  , Parabéns !!! , que DEUS  ilumine cada uma de vocês sempre , e que vocês continuem iluminando por onde passam ! '
        }else ('diaDaSemana')
        if ((dia == 24)&&(mes == 12)){
         img.src = 'imagens/vespera.jpg'
@@ -299,74 +299,39 @@ function getUserPosition() {
     navigator.geolocation.getCurrentPosition((pos) => {
       let lat = pos.coords.latitude
       let long = pos.coords.longitude
+      url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
       url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&APPID=${apiKey}&&lang=pt_br`;
-      fetchApi(url)
+      fetchApi(url);
       
     });
 }
 function fetchApi(url) {
- 
-    /*let description = document.querySelector('#description')*/
-   /* let city = document.querySelector('#city')
-    let temperatura = document.querySelector('#temp')
-    let humidity = document.querySelector ('#umidad')*/
     
+    let weatherIconElement = document.querySelector("#weather-icon");
+    let cityElement = document.querySelector("#city");
+    let tempElement = document.querySelector("#temperature span");
+    let descElement = document.querySelector("#description");
+    let weatherContainer = document.querySelector('#weather-data');
 
     fetch (url)
     .then((data) => {
         return data.json()
     })
     .then((data) => {
-        let tempInCelsius = ((5/9)  * (data.main.temp-32)).toFixed(1);
+        let tempInCelsius = ((5/9) * parseInt(data.main.temp-32)).toFixed(1);
 
-        city.textContent = data.name
-        tempElement.innerHTML = tempInCelsius
+        city.textContent = data.name;
+        tempElement.innerHTML = tempInCelsius;
         descElement.innerHTML = data.weather[0].description;
         weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
         
-        temperature.innerHTML = tempInCelsius
-        //humidity.innerHTML = data.main.humidity
+        
     })
     .catch((err) => {
     city.innerHTML = 'Impossivel acessar o OpenWeatcher. Verifique a sua conexão.';
-    temperatura.innerHTML = `-`;
-
- 
-
-    
+    temperatura.innerHTML = `-`;   
 })
 }
-
-
-   /* let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
-    let apiCountryURL = "https://countryflagsapi.com/png/";
-    let apiUnsplash = "https://source.unsplash.com/1600x900/?";
-    let weatherIconElement = document.querySelector("#weather-icon");
-    let cityElement = document.querySelector("#city");
-    let tempElement = document.querySelector("#temperature span");
-    let descElement = document.querySelector("#description");
-    let windElement = document.querySelector("#wind span");
-    let weatherContainer = document.querySelector('#weather-data');
-    
-
-const getWeatherData = async (city) => {
-     const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
-
-
-    const res = await fetch(apiWeatherURL);
-    const data = await res.json();
-     return data;
-};
-
-/*const showWeatherData = async (city) => {
-    const data = await getWeatherData(city);
-    weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
-    cityElement.innerText = data.name;
-    tempElement.innerHTML = parseInt(data.main.temp)
-    descElement.innerHTML = data.weather[0].description;
-    weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
-    windElement.innerHTML = `${data.wind.speed}Km/h`;
-};*/
 
 getUserPosition();
 
