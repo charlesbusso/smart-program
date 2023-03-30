@@ -338,7 +338,7 @@ function fetchApi(url) {
 }
 
 
-    let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
+   /* let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
     let apiCountryURL = "https://countryflagsapi.com/png/";
     let apiUnsplash = "https://source.unsplash.com/1600x900/?";
     let weatherIconElement = document.querySelector("#weather-icon");
