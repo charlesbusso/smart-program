@@ -1,4 +1,4 @@
-
+let tela = document.getElementById('telaSmart');
 let hSmart = document.querySelector('#hSmart');
 let mSmart = document.querySelector('#mSmart');
 let sSmart = document.querySelector('#sSmart');
@@ -34,7 +34,7 @@ function moveRelogio() {
 
     if (strDia.length == 1) dia ='0' + dia;
     if(strMes.length == 1) mes = '0' + mes;
-
+    
 
     
     
@@ -42,7 +42,11 @@ function moveRelogio() {
     if (strSegundo.length == 1)segundo = "0" + segundo
     if (strMinuto.length == 1) minuto = "0" + minuto
     if (strHora.length == 1) hora = "0" + hora
-   
+    if((hora => 18)&&(hora <= 06)){
+       document.style.tela.background = white;
+}else
+{document.style.background = black;}
+
     hSmart.textContent = hora
     mSmart.textContent = minuto
     sSmart.textContent = segundo
