@@ -42,9 +42,9 @@ function moveRelogio() {
     if (strSegundo.length == 1)segundo = "0" + segundo
     if (strMinuto.length == 1) minuto = "0" + minuto
     if (strHora.length == 1) hora = "0" + hora
-    if((hora => 18)&&(hora <= 06)){
+    if((hora => 18)&&(hora < 06)){
        document.style.tela.background = white;
-}else
+}else if ((hora => 06)&&(hora < 18))
 {document.style.background = black;}
 
     hSmart.textContent = hora
