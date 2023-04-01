@@ -45,7 +45,7 @@ function moveRelogio() {
     if((hora => 18)&&(hora < 06)){
        document.style.tela.background = white;
 }else if ((hora => 06)&&(hora < 18))
-{document.style.background = black;}
+{document.style.tela.background = black;}
 
     hSmart.textContent = hora
     mSmart.textContent = minuto
