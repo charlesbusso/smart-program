@@ -48,7 +48,7 @@ function moveRelogio() {
     sSmart.textContent = segundo
     
     if((hora => 18)&&(hora <= 06)){
-        document.telaSmart.style.background = 'white'
+        document.telaSmart.style.background = '#023059'
 
 }
    
