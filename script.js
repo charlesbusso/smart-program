@@ -50,6 +50,8 @@ function moveRelogio() {
     if((hora => 18)&&(hora <= 06)){
         document.tela.style.background = '#023059'
 
+     }if((hora > 06)&&(hora < 18)){
+        document.tela.style.background = 'black'
 }
    
 
