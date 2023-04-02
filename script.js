@@ -47,10 +47,10 @@ function moveRelogio() {
     mSmart.textContent = minuto
     sSmart.textContent = segundo
     
-    if((hora => 18)&&(hora <= 06)){
+    if((strHora => 18)&&(strHora <= 06)){
         document.tela.style.background = '#023059'
 
-     }if((hora > 06)&&(hora < 18)){
+     }if((strHora > 06)&&(strHora < 18)){
         document.tela.style.background = 'black'
 }
    
