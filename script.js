@@ -75,7 +75,8 @@ function moveRelogio() {
     }
 
     setTimeout("moveRelogio()",1000);
-
+    if((hora => 18)&&(hora <= 06)){
+        document.tela.style.background = 'white'
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
