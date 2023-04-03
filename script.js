@@ -7,7 +7,7 @@ let data = document.querySelector('#data');
 let semana = document.querySelector('#semana');
 let dataHora = new Date();
 
- const relogio = setInterval (function time(){
+ /*const relogio = setInterval (function time(){
     let tela = document.getElementById('telaSmart');
     let hr = hora;
    if((hr => 18)&&(hr <= 06){
@@ -16,7 +16,7 @@ let dataHora = new Date();
       document.tela.style.background = 'black'
 }
 
-}
+}*/
 
 function moveRelogio() {
     
