@@ -1,4 +1,4 @@
-let tela = document.getElementById('telaSmart');
+//let tela = document.getElementById('telaSmart');
 let hSmart = document.querySelector('#hSmart');
 let mSmart = document.querySelector('#mSmart');
 let sSmart = document.querySelector('#sSmart');
@@ -8,6 +8,7 @@ let semana = document.querySelector('#semana');
 let dataHora = new Date();
 
  const relogio = setInterval (function time(){
+    let tela = document.getElementById('telaSmart');
     let hr = hora;
    if((hr => 18)&&(hr <= 06){
       document.tela.style.background = 'white'
