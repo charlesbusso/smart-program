@@ -7,7 +7,15 @@ let data = document.querySelector('#data');
 let semana = document.querySelector('#semana');
 let dataHora = new Date();
 
+ const relogio = setInterval (function time(){
+    let hr = hora;
+   if((hr => 18)&&(hr <= 06){
+      document.tela.style.background = 'white'
+}else if((hr > 06)&&(hr < 18){
+      document.tela.style.background = 'black'
+}
 
+}
 
 function moveRelogio() {
     
