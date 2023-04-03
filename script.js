@@ -83,9 +83,10 @@ function moveRelogio() {
     setTimeout("moveRelogio()",1000);
 
     if((hora => 18)&&(hora <= 06)){
-       document.tela.style.background = 'white'
-}else if((hora > 06)&&(hora < 18)){
-       document.tela.style.background = 'black'
+       document.telaSmart.style.background = 'white'
+}
+      if((hora > 06)&&(hora < 18)){
+       document.telaSmart.style.background = 'black'
 }
   
     if (diaDaSemana === 'SEG'){
