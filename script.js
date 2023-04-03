@@ -47,12 +47,12 @@ function moveRelogio() {
     mSmart.textContent = minuto
     sSmart.textContent = segundo
     
-    if((strHora => 18)&&(strHora <= 06)){
+   /* if((strHora => 18)&&(strHora <= 06)){
         document.tela.style.background = '#023059'
 
      }if((strHora > 06)&&(strHora < 18)){
         document.tela.style.background = 'black'
-}
+}*/
    
 
 
@@ -82,12 +82,12 @@ function moveRelogio() {
 
     setTimeout("moveRelogio()",1000);
 
-    if((hora => 18)&&(hora <= 06)){
+    /*if((hora => 18)&&(hora <= 06)){
        document.telaSmart.style.background = 'white'
 }
       if((hora > 06)&&(hora < 18)){
        document.telaSmart.style.background = 'black'
-}
+}*/
   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
