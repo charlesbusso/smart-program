@@ -238,15 +238,15 @@ function moveRelogio() {
     
     }
 
-   /* const relogio = setInterval (function time(){
+   const relogio = setInterval (function time(){
     let tela = document.getElementById('telaSmart');
    if(hora > 18 && hora < 06){
-      document.style.tela.background = "white"
+      document.main.style.tela.background = "white"
 }else if(hora > 06 && hora < 18){
-      document.style.tela.background = "black"
+      document.main.style.tela.background = "black"
 }
 
-});*/
+});
 
 
 
