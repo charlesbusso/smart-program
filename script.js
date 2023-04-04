@@ -228,19 +228,18 @@ function moveRelogio() {
         img.src = 'imagens/vesperano.jpg'
         msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano e agradeça a DEUS por mais essa vitória .'
        }
-       if((hora > 18) && (hora < 06)){
+       /*if((hora > 18) && (hora < 06)){
         document.style.tela.background = "white"
   }else if((hora > 06) && (hora < 18)){
         document.style.tela.background = "black"
-  }
+  }*/
        
 
     
     }
 
-    /* const relogio = setInterval (function time(){
-    //let tela = document.getElementById('telaSmart');
-    //let hr = hora;
+   /* const relogio = setInterval (function time(){
+    let tela = document.getElementById('telaSmart');
    if(hora > 18 && hora < 06){
       document.style.tela.background = "white"
 }else if(hora > 06 && hora < 18){
