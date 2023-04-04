@@ -7,16 +7,7 @@ let data = document.querySelector('#data');
 let semana = document.querySelector('#semana');
 let dataHora = new Date();
 
- /*const relogio = setInterval (function time(){
-    let tela = document.getElementById('telaSmart');
-    let hr = hora;
-   if((hr => 18)&&(hr <= 06){
-      document.tela.style.background = 'white'
-}else if((hr > 06)&&(hr < 18){
-      document.tela.style.background = 'black'
-}
 
-}*/
 
 function moveRelogio() {
     
@@ -55,13 +46,7 @@ function moveRelogio() {
     hSmart.textContent = hora
     mSmart.textContent = minuto
     sSmart.textContent = segundo
-    
-   if(hora > 17 && hora < 06){
-        document.tela.style.background = '#023059'
 
-     }if(hora > 05 && hora < 18){
-        document.tela.style.background = 'black'
-}
    
 
 
@@ -91,13 +76,7 @@ function moveRelogio() {
 
     setTimeout("moveRelogio()",1000);
 
-    /*if((hora => 18)&&(hora <= 06)){
-       document.telaSmart.style.background = 'white'
-}
-      if((hora > 06)&&(hora < 18)){
-       document.telaSmart.style.background = 'black'
-}*/
-  
+   
     if (diaDaSemana === 'SEG'){
         img.src = 'imagens/represa.jpg'
         msg.textContent = ' " DEUS,se algum dia eu perder a esperança, por favor , me ajuda a lembrar que os teus planos são melhores que os meus !" '
@@ -249,10 +228,26 @@ function moveRelogio() {
         img.src = 'imagens/vesperano.jpg'
         msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano e agradeça a DEUS por mais essa vitória .'
        }
+       if((hora > 18) && (hora < 06)){
+        document.style.tela.background = "white"
+  }else if((hora > 06) && (hora < 18)){
+        document.style.tela.background = "black"
+  }
        
 
     
     }
+
+    /* const relogio = setInterval (function time(){
+    //let tela = document.getElementById('telaSmart');
+    //let hr = hora;
+   if(hora > 18 && hora < 06){
+      document.style.tela.background = "white"
+}else if(hora > 06 && hora < 18){
+      document.style.tela.background = "black"
+}
+
+});*/
 
 
 
