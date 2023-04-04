@@ -35,7 +35,11 @@ function moveRelogio() {
     if (strDia.length == 1) dia ='0' + dia;
     if(strMes.length == 1) mes = '0' + mes;
     
-
+    if(hora > 18 && hora < 06){
+      document.main.tela.style.background = 'blue'
+      }if (hora > 06 && hora < 18){
+       document.main.tela.style.background = ' black'
+}
     
     
 
@@ -238,7 +242,7 @@ function moveRelogio() {
     
     }
 
-   const relogio = setInterval (function time(){
+   /*const relogio = setInterval (function time(){
     let tela = document.getElementById('telaSmart');
    if(hora > 18 && hora < 06){
       document.main.style.tela.background = "white"
@@ -246,7 +250,7 @@ function moveRelogio() {
       document.main.style.tela.background = "black"
 }
 
-});
+});*/
 
 
 
