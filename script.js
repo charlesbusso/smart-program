@@ -12,7 +12,7 @@ let dataHora = new Date();
 function moveRelogio() {
     
     let momentoAtual = new Date();
-    let hora = 20//momentoAtual.getHours();
+    let hora = momentoAtual.getHours();
     let minuto = momentoAtual.getMinutes();
     let segundo = momentoAtual.getSeconds();
 
