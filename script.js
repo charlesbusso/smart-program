@@ -48,6 +48,7 @@ function moveRelogio() {
     if(hora > 17) {
         document.body.style.background = 'black';
         tela.style.background = 'grey';
+        semana.style.background = 'greenyellow';
         //tela.style.color = 'black'
         //temperature.style.color = 'black';
         //description.style.color = 'black';
