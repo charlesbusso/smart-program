@@ -35,9 +35,9 @@ function moveRelogio() {
     if (strDia.length == 1) dia ='0' + dia;
     if(strMes.length == 1) mes = '0' + mes;
     
-    if(hora > 18 && hora < 06){
+    if(hSmart > 18 && hSmart < 06){
       document.main.tela.style.background = 'blue'
-      }if (hora > 06 && hora < 18){
+      }if (hSmart > 06 && hSmart < 18){
        document.main.tela.style.background = ' black'
 }
     
