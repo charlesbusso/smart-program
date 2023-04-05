@@ -24,8 +24,6 @@ function moveRelogio() {
     let msg = document.getElementById('mensagem');
     let dia = dataHora.getDate();
     let mes = dataHora.getMonth()+1;
-    
-   
 
     let strDia = new String(dia);
     let strMes = new String(mes);
@@ -35,11 +33,7 @@ function moveRelogio() {
     if (strDia.length == 1) dia ='0' + dia;
     if(strMes.length == 1) mes = '0' + mes;
     
-    if(strHora > 18 && strHora < 06){
-      document.main.tela.style.background = 'blue'
-      }if (strHora > 06 && strHora < 18){
-       document.main.tela.style.background = ' black'
-}
+ 
     
     
 
@@ -50,6 +44,17 @@ function moveRelogio() {
     hSmart.textContent = hora
     mSmart.textContent = minuto
     sSmart.textContent = segundo
+
+    if(hora > 18){
+        document.body.style.background = 'black';
+        tela.style.background = 'grey';
+        tela.style.color = 'black'
+        temperature.style.color = 'black';
+        description.style.color = 'black';
+        grau.style.color = 'black'
+    
+    }
+    
 
    
 
@@ -232,28 +237,7 @@ function moveRelogio() {
         img.src = 'imagens/vesperano.jpg'
         msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano e agradeça a DEUS por mais essa vitória .'
        }
-       /*if((hora > 18) && (hora < 06)){
-        document.style.tela.background = "white"
-  }else if((hora > 06) && (hora < 18)){
-        document.style.tela.background = "black"
-  }*/
-       
-
-    
     }
-
-   /*const relogio = setInterval (function time(){
-    let tela = document.getElementById('telaSmart');
-   if(hora > 18 && hora < 06){
-      document.main.style.tela.background = "white"
-}else if(hora > 06 && hora < 18){
-      document.main.style.tela.background = "black"
-}
-
-});*/
-
-
-
 function pegarData() {
     let diaDaSemana = dataHora.getDay();
     let dia = dataHora.getDate();
