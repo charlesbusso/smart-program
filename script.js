@@ -45,7 +45,7 @@ function moveRelogio() {
     mSmart.textContent = minuto
     sSmart.textContent = segundo
 
-    if(hora > 18){
+    if(hora > 17) {
         document.body.style.background = 'black';
         tela.style.background = 'grey';
         tela.style.color = 'black'
@@ -53,6 +53,13 @@ function moveRelogio() {
         description.style.color = 'black';
         grau.style.color = 'black'
     
+    } if(hora < 06){
+        document.body.style.background = 'black';
+        tela.style.background = 'grey';
+        tela.style.color = 'black'
+        temperature.style.color = 'black';
+        description.style.color = 'black';
+        grau.style.color = 'black'
     }
     
 
