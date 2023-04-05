@@ -49,17 +49,17 @@ function moveRelogio() {
         //document.body.style.background = 'black';
         tela.style.background = 'grey';
         data.style.color = 'greenyellow';
-        msg.style.color = 'white';
+        //msg.style.color = 'white';
         //tela.style.color = 'black'
         //temperature.style.color = 'black';
         //description.style.color = 'black';
         //grau.style.color = 'black'
     
     } if(hora < 06){
-        document.body.style.background = 'black';
+        //document.body.style.background = 'black';
         tela.style.background = 'grey';
         data.style.color = 'greenyellow';
-        msg.style.color = 'white';
+        //msg.style.color = 'white';
         //temperature.style.color = 'black';
         //description.style.color = 'black';
         //grau.style.color = 'black'
