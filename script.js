@@ -49,6 +49,7 @@ function moveRelogio() {
         document.body.style.background = 'black';
         tela.style.background = 'grey';
         data.style.color = 'greenyellow';
+        msg.style.color " 'white';
         //tela.style.color = 'black'
         //temperature.style.color = 'black';
         //description.style.color = 'black';
