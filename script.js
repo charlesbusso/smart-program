@@ -12,7 +12,7 @@ let dataHora = new Date();
 function moveRelogio() {
     
     let momentoAtual = new Date();
-    let hora = momentoAtual.getHours();
+    let hora = 20//momentoAtual.getHours();
     let minuto = momentoAtual.getMinutes();
     let segundo = momentoAtual.getSeconds();
 
@@ -48,10 +48,10 @@ function moveRelogio() {
     if(hora > 17) {
         document.body.style.background = 'black';
         tela.style.background = 'grey';
-        tela.style.color = 'black'
-        temperature.style.color = 'black';
-        description.style.color = 'black';
-        grau.style.color = 'black'
+        //tela.style.color = 'black'
+        //temperature.style.color = 'black';
+        //description.style.color = 'black';
+        //grau.style.color = 'black'
     
     } if(hora < 06){
         document.body.style.background = 'black';
