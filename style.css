@@ -29,12 +29,10 @@ section {
     background: black;
     color: cyan;
     text-align: center;
-    font-size: 1rem;
     align-items: center;
     border: 2px solid black;
 }
 #telaSmart p {
-    
     font-size: 1rem;
 }
 #telaSmart a{
@@ -60,18 +58,20 @@ section {
     color: magenta;
     display: inline-block;
     font-size: 1.7rem;
+    font-weight: bold;
 }
 #semana{
     color: greenyellow;
     margin-right: 15px;
     font-size: 1.7rem;
+    font-weight: bold;
 }
 #temperature{
     user-select: none;
     margin-top: 0.2rem;
     font-family: sans-serif;
-    font-size: 1.8rem;
-    color: white;  
+    font-size: 1.6rem;
+    color: yellow;  
     margin-right: 0.1rem;
     font-weight: bold;
 }
@@ -85,7 +85,8 @@ section {
 #grau{
     font-weight: bold;
     margin-top: 4px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    color: yellow;
     
 }
 #description{
@@ -96,6 +97,8 @@ section {
     text-transform: capitalize;
     margin-left: 20px;
     font-weight: bold;
+    font-size: 1.3rem;
+    color: yellow;
 }
 
 #weather-data{
@@ -128,6 +131,7 @@ section {
     align-items: center;
     margin: 0.2rem 0.2rem;
     color: white;
+    
 }
 
 

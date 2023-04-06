@@ -46,28 +46,18 @@ function moveRelogio() {
     sSmart.textContent = segundo
 
     if(hora > 17) {
-        //document.body.style.background = 'black';
         tela.style.background = 'grey';
-        data.style.color = 'greenyellow';
-        //msg.style.color = 'white';
-        //tela.style.color = 'black'
-        //temperature.style.color = 'black';
-        //description.style.color = 'black';
-        //grau.style.color = 'black'
+        data.style.color = 'cyan';
+        semana.style.color = 'cyan';
+        
     
     } if(hora < 06){
-        //document.body.style.background = 'black';
         tela.style.background = 'grey';
-        data.style.color = 'greenyellow';
-        //msg.style.color = 'white';
-        //temperature.style.color = 'black';
-        //description.style.color = 'black';
-        //grau.style.color = 'black'
+        data.style.color = 'cyan';
+        semana.style.color = 'cyan';
+        
     }
     
-
-   
-
 
     switch(diaDaSemana) {
         case 0:
