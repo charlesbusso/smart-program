@@ -26,7 +26,7 @@ section {
     user-select: none;
     padding: 1rem;
     border-radius: 20px;
-    background: black;
+    background: rgb(116, 114, 114);
     color: cyan;
     text-align: center;
     align-items: center;
@@ -76,12 +76,6 @@ section {
     font-weight: bold;
 }
 
-/*.cidade{
-    width: 180px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}*/
 #grau{
     font-weight: bold;
     margin-top: 4px;
@@ -178,13 +172,13 @@ img{
     padding: 0.1rem;
 }
 #relogioSmart{
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
 }
 #telaSmart a{
     margin-top: 0.3rem;
 }
 #dataSmart{
-    margin-top: -3px;
+    margin-top: 2px;
 }
 #weather-data{
     margin-top: -10px;
