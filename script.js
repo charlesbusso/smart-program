@@ -46,7 +46,7 @@ function moveRelogio() {
     sSmart.textContent = segundo
 
     if(hora > 17) {
-       // tela.style.background = 'grey';
+        tela.style.background = 'grey';
         data.style.color = 'cyan';
         semana.style.color = 'cyan';
         
