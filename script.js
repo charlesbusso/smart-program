@@ -152,7 +152,7 @@ function moveRelogio() {
 
        if ((dia == 07)&&(mes == 04)){
         img.src = 'imagens/bel.jpg'
-        msg.textContent = 'Maria Isabel, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
+        msg.textContent = 'Belzinha, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        } else ('diaDaSemana')
 
        if ((dia == 14)&&(mes == 04)){
