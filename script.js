@@ -162,7 +162,7 @@ function moveRelogio() {
 
        if ((dia == 18)&&(mes == 05)){
         img.src = 'imagens/ivo.jpg'
-        msg.textContent = ' Ivo, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
+        msg.textContent = ' InisVombers, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
        } else ('diaDaSemana')
 
        if ((dia == 29)&&(mes == 05)){
