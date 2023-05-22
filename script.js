@@ -172,7 +172,7 @@ function moveRelogio() {
 
        if ((dia == 25)&&(mes == 06)){
         img.src = 'imagens/dani.jpg'
-        msg.textContent = 'Daniela, hoje é seu dia  minha parceira! e só tenho a agradecer por ser minha companheira por todos os momentos da minha vida, parabéns , te AMO !'
+        msg.textContent = 'Daniela, hoje é seu dia minha parceira! e só tenho a agradecer por ser minha companheira por todos os momentos da minha vida, parabéns , te AMO !'
        } else ('diaDaSemana')
 
        if ((dia == 02)&&(mes == 08)){
