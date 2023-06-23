@@ -51,7 +51,7 @@ function moveRelogio() {
         semana.style.color = 'cyan';
         
     
-    } if(hora < 06){
+    } if(hora < 6){
         tela.style.background = 'grey';
         data.style.color = 'cyan';
         semana.style.color = 'cyan';
@@ -116,96 +116,96 @@ function moveRelogio() {
         img.src = 'imagens/caminho.jpg'
         msg.textContent = ' " Deus diz: tenha bom ânimo, pois estou no controle de tudo! " '
     }
-         if ((dia == 01)&&(mes == 01)){
+         if ((dia == 1)&&(mes == 1)){
         img.src = 'imagens/anonovo.jpg'
         msg.textContent = 'Feliz Ano Novo !! Neste ano, desejo a vocês não apenas alegria, saúde,  mas também muitos sonhos realizados !'
          }else ('diaDaSemana')
 
-        if ((dia == 19)&&(mes == 01)){
+        if ((dia == 19)&&(mes == 1)){
             img.src = 'imagens/flavia.jpg'
             msg.textContent = 'Flávia, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
         } else('diaDaSemana')
 
-        if ((dia == 11)&&(mes == 02)){
+        if ((dia == 11)&&(mes == 2)){
             img.src = 'imagens/israel.jpg'
             msg.textContent = 'Israel, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. Parabéns ! '
         } else('diaDaSemana')
 
-       if ((dia == 11)&&(mes == 03)){
+       if ((dia == 11)&&(mes == 3)){
         img.src = 'imagens/fabiola.jpg'
         msg.textContent = 'Fabíola, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        } else ('diaDaSemana')
 
-       if ((dia == 12)&&(mes == 03)){
+       if ((dia == 12)&&(mes == 3)){
         img.src = 'imagens/eliza.jpg'
         msg.textContent = 'Eliza parabéns ! E que você ilumine o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
        } else ('diaDaSemana')
-       if ((dia == 25)&&(mes == 03)){
+       if ((dia == 25)&&(mes == 3)){
         img.src = 'imagens/tati.jpg'
         msg.textContent = 'Tatiana, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
        } else ('diaDaSemana')
 
-       if ((dia == 28)&&(mes == 03)) {
+       if ((dia == 28)&&(mes == 3)) {
         img.src = 'imagens/sandro.jpg'
         msg.textContent = 'Sandro, o que vale, é as lembranças de uma pessoa íntegra, dedicada e inspiradora que você era. É uma pena que você foi cedo demais. Todos os teus familiares sentem sua falta!  '
        } else ('diaDaSemana')
 
-       if ((dia == 07)&&(mes == 04)){
+       if ((dia == 7)&&(mes == 4)){
         img.src = 'imagens/bel.jpg'
         msg.textContent = 'Belzinha, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        } else ('diaDaSemana')
 
-       if ((dia == 14)&&(mes == 04)){
+       if ((dia == 14)&&(mes == 4)){
         img.src = 'imagens/vitoria.jpg'
         msg.textContent = 'Vitória, Tudo de bom a você ! celebre este dia com muita alegria e gratidão a DEUS ! Parabéns'
        } else ('diaDaSemana')
 
-       if ((dia == 18)&&(mes == 05)){
+       if ((dia == 18)&&(mes == 5)){
         img.src = 'imagens/ivo.jpg'
         msg.textContent = ' Ivo, também conhecido como InisVombers, hoje celebramos mais um dia da sua vida com muita alegria e gratidão a DEUS. Parabéns ! '
        } else ('diaDaSemana')
 
-       if ((dia == 29)&&(mes == 05)){
+       if ((dia == 29)&&(mes == 5)){
         img.src = 'imagens/joel.jpg'
         msg.textContent = ' Joel, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
        } else ('diaDaSemana')
 
-       if ((dia == 25)&&(mes == 06)){
+       if ((dia == 25)&&(mes == 6)){
         img.src = 'imagens/dani.jpg'
         msg.textContent = 'Daniela, hoje é seu dia minha parceira! e só tenho a agradecer por ser minha companheira por todos os momentos da minha vida, parabéns , te AMO !'
        } else ('diaDaSemana')
 
-       if ((dia == 02)&&(mes == 08)){
+       if ((dia == 2)&&(mes == 8)){
         img.src = 'imagens/pai.jpg'
         msg.textContent = 'Pai, neste dia, quero agradecer por tudo e lembrar que, para todos nós, você é motivo de orgulho! muita paz, saúde e felicidades !'
        } else ('diaDaSemana')
 
-       if ((dia == 25)&&(mes ==08)){
+       if ((dia == 25)&&(mes == 8)){
         img.src = 'imagens/camila.jpg'
         msg.textContent = 'Camila,  Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        }else ('diaDaSemana')
 
-       if ((dia == 16)&&(mes == 09)){
-        img.src = 'imagens/charles.jpg'
+       if ((dia == 16)&&(mes == 9)){
+        img.src = 'imagens/charles1.jpg'
         msg.textContent = ' Hoje é o meu dia ! Parabéns pra mim e muita saúde, paz e muito DEUS no coração'
        }else ('diaDaSemana')
        
-       if ((dia == 17)&&(mes == 09)){
+       if ((dia == 17)&&(mes == 9)){
         img.src = 'imagens/bianca.jpg'
         msg.textContent = ' Bianca, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
       } else ('diaDaSemana')
 
-      if ((dia == 25)&&(mes == 09)){
+      if ((dia == 25)&&(mes == 9)){
         img.src = 'imagens/rafael.jpg'
         msg.textContent = ' Rafael, Tudo de bom a você ! celebre este dia com muita alegria e gratidão a DEUS ! Parabéns'
       } else ('diaDaSemana')
 
-      if ((dia == 26)&&(mes == 09)){
+      if ((dia == 26)&&(mes == 9)){
         img.src = 'imagens/felipe.jpg'
         msg.textContent = ' Felipe, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
        } else ('diaDaSemana')
 
-       if ((dia == 01)&&(mes == 10)){
+       if ((dia == 1)&&(mes == 10)){
         img.src = 'imagens/ceia.jpg'
         msg.textContent = ' Céia, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
        } else ('diaDaSemana')
