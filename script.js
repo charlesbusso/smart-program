@@ -186,7 +186,7 @@ function moveRelogio() {
        }else ('diaDaSemana')
 
        if ((dia == 16)&&(mes == 9)){
-        img.src = 'imagens/charles1.jpg'
+        img.src = 'imagens/charles.jpg'
         msg.textContent = ' Hoje é o meu dia ! Parabéns pra mim e muita saúde, paz e muito DEUS no coração'
        }else ('diaDaSemana')
        
