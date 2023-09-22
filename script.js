@@ -22,7 +22,7 @@ function moveRelogio() {
     let diaDaSemana = dataHora.getDay();
     let img = document.getElementById('imagem');
     let msg = document.getElementById('mensagem');
-    let dia = dataHora.getDate();
+    let dia = 23 //dataHora.getDate();
     let mes = dataHora.getMonth()+1;
 
     let strDia = new String(dia);
@@ -193,6 +193,11 @@ function moveRelogio() {
        if ((dia == 17)&&(mes == 9)){
         img.src = 'imagens/bianca.jpg'
         msg.textContent = ' Bianca, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
+      } else ('diaDaSemana')
+
+      if ((dia == 23)&&(mes == 9)){
+        img.src = 'imagens/chadani.jpg'
+        msg.textContent = ' Hoje celebramos mais um ano de casados, amizade,Amor e cumplicidade e que isso se repita por vários anos! Parabéns pra NÓS ! '
       } else ('diaDaSemana')
 
       if ((dia == 25)&&(mes == 9)){
