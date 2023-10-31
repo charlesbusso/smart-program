@@ -219,14 +219,14 @@ function moveRelogio() {
         img.src = 'imagens/dupla.jpg'
         msg.textContent = ' Tiago, Wendell Parabéns a vocês !! E que cada um de vocês iluminem o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
       }else ('diaDaSemana')*/
-      /*if ((dia == 31)&&(mes == 10)){
+      if ((dia == 31)&&(mes == 10)){
         img.src = 'imagens/dell.jpg'
         msg.textContent = ' Wendell, Parabéns a você !! E que você ilumine o mundo todos os dias com seu jeito ! seja feliz e curta muito seu aniversário!'
-      }else ('diaDaSemana')*/
-      if ((dia == 31)&&(mes == 10)){
+      }else ('diaDaSemana')
+      /*if ((dia == 31)&&(mes == 10)){
         img.src = 'imagens/tiago.jpg'
         msg.textContent = ' Tiago, Parabéns a você !! E que você ilumine o mundo todos os dias com seu jeito ! seja feliz e curta muito seu aniversário!'
-      }else ('diaDaSemana')
+      }else ('diaDaSemana')*/
 
       if ((dia == 16)&&(mes == 11)){
         img.src = 'imagens/bia.jpg'
