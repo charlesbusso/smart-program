@@ -232,7 +232,6 @@ function moveRelogio() {
         img.src = 'imagens/bia.jpg'
         msg.textContent = 'Bia, Parabéns a você ! Celebre este dia especial com muita alegria no coração e junto dos que mais Ama !'
        }else ('diaDaSemana')
-
      /*if ((dia == 23)&&(mes == 11)){
         img.src = 'imagens/laura.jpg'
         msg.textContent = 'Laura  , Parabéns !!! , que DEUS  ilumine você a cada dia, e que você continue iluminando por onde passa ! '
@@ -256,7 +255,7 @@ function moveRelogio() {
        
        if ((dia == 31)&&(mes ==12)) {
         img.src = 'imagens/vesperano.jpg'
-        msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano e agradeça a DEUS por mais essa vitória .'
+        msg.textContent = ' Hoje completa mais um ano em nossas vidas, por isso comemore esse final de ano e agradeça a DEUS por mais essa vitória em nossas vidas .'
        }
     }
 function pegarData() {
