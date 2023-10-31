@@ -225,7 +225,7 @@ function moveRelogio() {
       }else ('diaDaSemana')*/
       if ((dia == 31)&&(mes == 10)){
         img.src = 'imagens/tiago.jpg'
-        msg.textContent = ' Tiago, Parabéns a você !! E que você iluminem o mundo todos os dias com seu jeito ! seja feliz e curta muito seu aniversário!'
+        msg.textContent = ' Tiago, Parabéns a você !! E que você ilumine o mundo todos os dias com seu jeito ! seja feliz e curta muito seu aniversário!'
       }else ('diaDaSemana')
 
       if ((dia == 16)&&(mes == 11)){
