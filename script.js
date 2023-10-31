@@ -215,10 +215,18 @@ function moveRelogio() {
         msg.textContent = ' Céia, hoje se completa mais um ano de sua vida, por isso curta cada instante deste dia com muita alegria. parabéns a você !'
        } else ('diaDaSemana')
 
-       if ((dia == 31)&&(mes == 10)){
+       /*if ((dia == 31)&&(mes == 10)){
         img.src = 'imagens/dupla.jpg'
         msg.textContent = ' Tiago, Wendell Parabéns a vocês !! E que cada um de vocês iluminem o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+      }else ('diaDaSemana')*/
+      if ((dia == 31)&&(mes == 10)){
+        img.src = 'imagens/dell.jpg'
+        msg.textContent = ' Wendell, Parabéns a você !! E que você ilumine o mundo todos os dias com seu jeito ! seja feliz e curta muito seu aniversário.'
       }else ('diaDaSemana')
+      /*if ((dia == 31)&&(mes == 10)){
+        img.src = 'imagens/dupla.jpg'
+        msg.textContent = ' Tiago, Wendell Parabéns a vocês !! E que cada um de vocês iluminem o mundo com seu jeito ! seja feliz e curta muito seu aniversário.'
+      }else ('diaDaSemana')*/
 
       if ((dia == 16)&&(mes == 11)){
         img.src = 'imagens/bia.jpg'
