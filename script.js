@@ -236,14 +236,14 @@ function moveRelogio() {
         img.src = 'imagens/laura.jpg'
         msg.textContent = 'Laura  , Parabéns !!! , que DEUS  ilumine você a cada dia, e que você continue iluminando por onde passa ! '
        }else ('diaDaSemana')*/
-      /* if ((dia == 23)&&(mes == 11)){
+       if ((dia == 23)&&(mes == 11)){
         img.src = 'imagens/anna.jpg'
         msg.textContent = ' Anna, Parabéns !!! , que DEUS  ilumine você a cada dia, e que você continue iluminando por onde passa ! '
-       }else ('diaDaSemana')*/
-       if ((dia == 23)&&(mes == 11)){
+       }else ('diaDaSemana')
+       /*if ((dia == 23)&&(mes == 11)){
         img.src = 'imagens/duplam.jpg'
         msg.textContent = ' Anna e Laura  , Parabéns !!! , que DEUS  ilumine cada uma de vocês sempre , e que vocês continuem iluminando por onde passam ! '
-       }else ('diaDaSemana')
+       }else ('diaDaSemana')*/
        if ((dia == 24)&&(mes == 12)){
         img.src = 'imagens/vespera.jpg'
         msg.textContent = ' Feliz Natal !! Que Deus possa reviver a fé dentro do seu coração e encher sua vida de amor ! '
